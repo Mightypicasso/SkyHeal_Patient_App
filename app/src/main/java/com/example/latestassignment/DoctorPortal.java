@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class DoctorPortal extends AppCompatActivity {
 
     private long backPressedTime;
-    Button docReg, logOut, updateDocInfo;
+    Button docReg, logOut/*, updateDocInfo*/;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class DoctorPortal extends AppCompatActivity {
 
         docReg = findViewById(R.id.doctorReg);
         logOut = findViewById(R.id.logOutbutton);
-        updateDocInfo = findViewById(R.id.updateDocInfo);
+//         updateDocInfo = findViewById(R.id.updateDocInfo);
 
         docReg.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,14 +30,14 @@ public class DoctorPortal extends AppCompatActivity {
             }
         });
 
-        updateDocInfo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DoctorPortal.this, UpdateDoctorProfile.class);
-                startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-            }
-        });
+//         updateDocInfo.setOnClickListener(new View.OnClickListener() {
+//             @Override
+//             public void onClick(View v) {
+//                 Intent intent = new Intent(DoctorPortal.this, UpdateDoctorProfile.class);
+//                 startActivity(intent);
+//                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+//             }
+//         });
 
         logOut.setOnClickListener(new View.OnClickListener() {
             @Override
