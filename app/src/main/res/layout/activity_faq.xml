@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAQ"
+    android:background="@drawable/gradientbg"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/BackButtonFaq"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_west_24"
+        android:background="#00FFFFFF"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="360dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="36dp"
+                android:background="#21ABCD" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="7.5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="7.5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="360dp"
+                            android:layout_height="42dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#21ABCD"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="What Is SkyHeal?"
+                                        android:textColor="#000000"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>      <!--Question-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="344dp"
+                            android:layout_height="60dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#89CFF0"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="SkyHeal is a telehealth app that extensively caters to your healthcare necessities whenever and wherever you are."
+                                        android:textColor="#333399"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Answer-->
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="360dp"
+                            android:layout_height="42dp"
+                            android:layout_marginTop="24dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#21ABCD"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="Do I Have To Pay To Use SkyHeal?"
+                                        android:textColor="#000000"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Question-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="344dp"
+                            android:layout_height="60dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#89CFF0"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="No, you do not need to pay to use our app but external charges may apply if you book an appointment via our app."
+                                        android:textColor="#333399"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Answer-->
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="360dp"
+                            android:layout_height="42dp"
+                            android:layout_marginTop="24dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#21ABCD"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="How Can I Book An Appointment?"
+                                        android:textColor="#000000"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Question-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="344dp"
+                            android:layout_height="60dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#89CFF0"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="You can do so by clicking on the Book Appointment section on the homepage and you will be redirected to..."
+                                        android:textColor="#333399"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Answer-->
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="360dp"
+                            android:layout_height="42dp"
+                            android:layout_marginTop="24dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#21ABCD"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="Are My Health Statistics Secure?"
+                                        android:textColor="#000000"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Question-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="344dp"
+                            android:layout_height="60dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#89CFF0"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="Yes, do not worry as we will not share your information with any third parties or organizations."
+                                        android:textColor="#333399"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Answer-->
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="360dp"
+                            android:layout_height="42dp"
+                            android:layout_marginTop="24dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#21ABCD"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="Can I Change The App's Theme?"
+                                        android:textColor="#000000"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Question-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="344dp"
+                            android:layout_height="60dp"
+                            android:elevation="0dp"
+                            app:cardBackgroundColor="#89CFF0"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginRight="6dp"
+                                        android:text="Well, as of now blue is our one and only colour scheme so there are no additional themes yet."
+                                        android:textColor="#333399"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold" />
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="2dp"
+                                        android:layout_marginTop="-50dp"
+                                        android:layout_marginBottom="30dp"
+                                        android:background="#000000" />
+
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>    <!--Answer-->
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

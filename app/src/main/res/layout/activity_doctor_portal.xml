@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DoctorPortal"
+    android:background="@drawable/gradientbg">
+
+    <TextView
+        android:text="Doctor Portal"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/doctorReg"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/switch_trcks"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Add Doctor">
+
+    </Button>
+
+    <Button
+        android:id="@+id/updateDocInfo"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/switch_trcks"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Update Doctor Info">
+
+    </Button>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/logOutbutton"
+        android:background="@drawable/switch_trcks"
+        android:text="Log Out"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/baby_blue"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>

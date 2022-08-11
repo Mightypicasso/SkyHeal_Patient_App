@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckIn"
+    android:background="@color/baby_blue"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_baseline_west_24"
+                android:background="@color/baby_blue"/>
+
+            <TextView
+                android:layout_marginBottom="30dp"
+                android:id="@+id/title"
+                android:text="Check In"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLay"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_marginBottom="20dp"
+                android:background="#fff"
+                android:src="@drawable/skyheal"
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/name"
+                android:text="Name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_marginBottom="30dp"
+                android:id="@+id/ID"
+                android:text="id"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#fff"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/copy_check_in"
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+
+            </ImageView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff">
+
+                <Button
+                    android:id="@+id/check_in_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="#4682BF"
+                    android:drawableStart="@drawable/buttons_background"
+                    android:text="Check In"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/displayProfilePic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_person_24"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#FF000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp">
+
+            <TextView
+                android:id="@+id/displayFullName"
+                android:layout_margin="2dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/displaySpecialization"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/displayYearsOfEx"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/displayEmail"
+                android:layout_margin="2dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textAlignment="textStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/makeAppointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_gravity="center"
+                android:background="@drawable/switch_trcks"
+                android:text="Make Appointment"
+                android:textColor="#000"
+                android:textAllCaps="false">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/mainLayout"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </View>
+
+</RelativeLayout>

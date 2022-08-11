@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".WelcomePage">
+
+    <TextView
+        android:id="@+id/brandName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brand Name"
+        android:layout_marginTop="250dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold|normal|italic">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/patientReg"
+            android:padding="10dp"
+            android:background="@drawable/switch_trcks"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Log In / Register as Patient">
+
+        </Button>
+
+<!--        <Button-->
+<!--            android:id="@+id/doctorReg"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:background="@drawable/switch_trcks"-->
+<!--            android:textColor="#000"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Register as Doctor">-->
+
+<!--        </Button>-->
+
+    </LinearLayout>
+
+</RelativeLayout>

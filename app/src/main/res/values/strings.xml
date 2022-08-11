@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">assignment</string>
+    <string name="welcome">Welcome!</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Experience">
+        <item>1 – 2 Years</item>
+        <item>3 – 4 Years</item>
+        <item>5 – 6 Years</item>
+        <item>7 – 8 Years</item>
+        <item>> 8 Years</item>
+    </string-array>
+    <string name="title_activity_appointment_page">AppointmentPage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
