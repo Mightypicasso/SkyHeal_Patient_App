@@ -32,7 +32,7 @@
 
     </Button>
 
-    <Button
+<!--     <Button
         android:id="@+id/updateDocInfo"
         android:padding="10dp"
         android:layout_marginTop="30dp"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:text="Update Doctor Info">
 
-    </Button>
+    </Button> -->
 
     <Button
         android:layout_marginTop="20dp"
